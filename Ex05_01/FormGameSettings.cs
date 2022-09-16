@@ -15,7 +15,6 @@ namespace Ex05_01
             textBoxPlayer2.Text = checkBoxPlayer2.Checked ? String.Empty : "[Computer]";
         }
 
-        // $G$ CSS-999 (-3) Internal methods should start with an uppercase letter.
         internal bool ensureDetailsFilled()
         {
             bool areDetailsFilledCorrectly;
@@ -43,7 +42,6 @@ namespace Ex05_01
             return areDetailsFilledCorrectly;
         }
 
-        // $G$ CSS-999 (-3) Internal methods should start with an uppercase letter.
         internal eBoardSize getBoardSize()
         {
             eBoardSize size;
@@ -64,7 +62,6 @@ namespace Ex05_01
             return size;
         }
 
-        // $G$ CSS-999 (-3) Internal methods should start with an uppercase letter.
         internal eNumOfPlayers getNumOfPlayers()
         {
             eNumOfPlayers numOfPlayers = checkBoxPlayer2.Checked ? eNumOfPlayers.Two : eNumOfPlayers.One;

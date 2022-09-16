@@ -5,8 +5,7 @@ namespace Ex05_01
 {
     internal class GameManagement
     {
-        // $G$ DSN-999 (-3) This object should be readonly.
-        private FormGame m_FormGame = new FormGame();
+        private readonly FormGame m_FormGame = new FormGame();
         private Round m_Round;
 
         internal void Run()
