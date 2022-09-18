@@ -5,10 +5,11 @@
 * Using Constructors, Enums, Properties, Access modifiers, Modifiers
 * Working with Arrays / Collections / Data Structures
 * Use of the String Class
-* Referencing External DII (Assembly)
+* Developing a basic yet complex Windows desktop application using .NET WinForms
+* Working with controls, forms, and events
 
 ## The Exercise
-You must implement the game American Checkers for Console.
+You must implement the game American Checkers for Window GUI.
 
 ## Architecture and Software Engineering:
 * You must use Object Oriented architecture!
